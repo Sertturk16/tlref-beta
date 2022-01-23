@@ -1,0 +1,704 @@
+:root{
+    --acikRenk:#5CD4CD;
+    --kapaliRenk:#4472D1;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #E4E4E4;
+}
+
+
+.container-fluid{
+    background: white;
+    background-image: url("../img/rectangle-25.png");
+    background-size: 50rem;
+    margin: auto;
+    overflow: hidden;
+}
+
+header{
+    height: auto;
+}
+
+.navbar{
+    background-color: white!important;
+}
+
+.nav-item{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+.navbar-brand{
+    background: linear-gradient(to top, #0CBEC3 ,#327ECD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+}
+
+.navbar-brand p{
+    font-size: 15px;
+    line-height: 15px;
+    background: linear-gradient(to top, #0CBEC3 ,#327ECD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-left: 0.2rem;
+}
+
+.nav-link{
+    color: var(--acikRenk)!important;
+    transition: 0.2s;
+}
+
+.nav-link:hover{
+    color: var(--kapaliRenk)!important;
+}
+
+.sign-up{
+    border: 2px solid var(--acikRenk);
+    background-color: #fff;
+    color: var(--acikRenk);
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.sign-up:hover{
+    background-color: var(--acikRenk);
+    color: #fff;
+    border: 2px solid var(--acikRenk);
+}
+
+
+.login{
+    font-size: 0.9rem;
+}
+
+.main-page-link{
+    color: var(--kapaliRenk)!important;
+}
+
+.kayit{
+    float: right;
+}
+.kayit a{
+    text-decoration: none;
+    color: var(--acikRenk);
+    margin-right: 10px;
+    
+}
+.kutu-1{
+    clear: both;
+    float: left;
+}
+.kutu-1 img{
+    width: 100%;
+    max-width: 30rem;
+}
+.kutu-1 h2{
+    color: var(--acikRenk);
+}
+.kutu-1 p{
+    color: #8f8484;
+}
+.kutu-2{
+    position: relative;
+    float: right;
+}
+.kutu-2 img{
+    width: 100%;
+    max-width: 30rem;
+}
+
+.box-container{
+    overflow: hidden!important;
+}
+
+.kk-tlref{
+    width: 100%;
+    padding: 2rem;
+}
+
+.kredi-kotasyonlari{
+    width: 20rem;
+    max-width: 90%;
+    border: 1px solid grey;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px grey;
+}
+.kredi-kotasyonlari h3{
+    font-size: 1.2rem;
+    color: #2FDAA0;
+}
+.kredi-kotasyonlari p{
+    font-size: 0.8rem;
+    color: #8f8484;    
+}
+.tlref-hedge-islemleri{
+    width: 20rem;
+    max-width: 90%;
+    margin-bottom: 1rem!important;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1.5rem;
+    background-color: #00D591;
+}
+
+.tlref-hedge-islemleri:hover{
+    background-color: #03c487;
+    cursor: pointer;
+}
+
+.tlref-hedge-islemleri a{
+    text-decoration: none;
+    color: white;
+}
+
+#baslik-1{
+    font-size: 200%;
+    clear: both;
+    text-align: center;
+    color: #2CC9C1;
+}
+#cizgi-1{
+    margin: 1% 0% 0% 0%;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+}
+.haberler{
+    float: right;
+    margin-right: 4%;
+}
+.haberler a{
+    text-decoration: none;
+    color: var(--acikRenk);
+    
+}
+.both{
+    clear: both;
+}
+.kutu-3{
+    clear: both;
+    margin: 5%;
+    width: 23%;
+    display: inline-block;
+}
+.h55{
+    color: #8AC0FF;
+    margin-bottom: 5%;
+}
+.kutu-3 h5{
+    color:#8f8484 ;
+}
+.kutu-3 a{
+    color: #2FDAA0 ;
+    text-decoration: none;
+    float: right;
+}
+.cizgi-2{
+    width:90%;
+    border-radius: 10px;
+}
+.neden-TLREF{
+    font-size: 200%;
+    text-align: center;
+    margin: 4% 4% 0% 4%;
+    color: #2CC9C1;
+}
+
+.info-section h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #2CC9C1;
+}
+
+.info-text h3{
+    color: #2FDAA0;
+}
+
+.info-text p{
+    color:#8f8484 ;
+}
+
+
+.info-img img{
+    max-width: 100%;
+}
+
+.yazi-1{
+    margin: 5%;
+    float: left;
+    width: 45%;
+}
+.yazi-1 h3{
+    color: #2FDAA0;
+    margin-bottom: 3%;
+}
+.yazi-1 h5{
+    color:#8f8484 ;
+    margin-bottom: 3%;
+}
+.yazi-1 a{
+    text-decoration: none;
+    color:#2FDAA0;
+}
+.resim-1{
+    float: right;
+    width: 35%;
+    margin: 5%;
+}
+.resim-1 img{
+    width: 100%;
+}
+.resim-2{
+    margin: 5%;
+    width: 35%;
+    float: left;
+}
+.resim-2 img{
+    width: 100%;
+}
+.yazi-2{
+    margin: 5%;
+    float: left;
+    width: 45%;
+}
+.yazi-2 h3{
+    color: #2FDAA0;
+    margin-bottom: 3%;
+}
+.yazi-2 h5{
+    color:#8f8484 ;
+    margin-bottom: 3%;
+}
+.yazi-2 a{
+    text-decoration: none;
+    color:#2FDAA0;
+}
+.yazi-3{
+    clear: both;
+    margin: 5%;
+    float: left;
+    width: 45%;
+}
+.yazi-3 h3{
+    color: #2FDAA0;
+    margin-bottom: 3%;
+}
+.yazi-3 h5{
+    color:#8f8484 ;
+    margin-bottom: 3%;
+}
+.yazi-3 a{
+    text-decoration: none;
+    color:#2FDAA0;
+}
+.resim-3{
+    margin: 5%;
+    width: 35%;
+    float: right;
+    margin-top: 0;
+}
+.resim-3 img{
+    width: 100%;
+}
+
+.divler{
+    width: 30%;
+    margin: 5% 1.5% 5% 1.5%;
+    display: inline-block;
+}
+.divler h5{
+    font-size: 75%;
+    color:#8f8484 ;
+    margin-bottom: 3%;
+}
+.divler h2{
+    color:#2FDAA0; ;
+}
+.divler a{
+    text-decoration: none;
+    color:#2FDAA0;
+}
+.divler img{
+    width: 100%;
+    float: left;
+}
+.maliye-bakanligi{
+    text-align: center;
+    width: 25%;
+    margin: 0% 0% 0% 33.5%;
+}
+
+.maliye-bakanligi img{
+    width: 100%;
+}
+
+.finans-ofisi{
+    width: 20%;
+    float: left;
+    margin: 5% 3% 0% 7%;
+}
+.finans-ofisi img{
+    width: 100%;
+}
+.varlik-fonu{
+    width: 20%;
+    float: left;
+    margin: 7% 5% 0% 5%;
+}
+.varlik-fonu img{
+    width: 130%;
+}
+.dijital-donusum-ofisi{
+    width: 20%;
+    float: left;
+    margin: 5% 0% 0% 5%;
+}
+.dijital-donusum-ofisi img{
+    width: 150%;
+}
+
+
+
+.tc-merkez-bankasi{
+    clear: both;
+    float: left;
+    width: 18%;
+    margin: 2% 0% 0% 2%;
+}
+.tc-merkez-bankasi img{
+    width: 120%;
+}
+.sermaye-kurulu{
+    margin: 1% 5% 0% 7%;
+    float: left;
+    width: 18%;
+}
+.sermaye-kurulu img{
+    width: 40%;
+}
+.bankacilik-duzenleme{
+    margin-top: 0.5%;
+    float: left;
+    width: 18%;
+    margin-left: -12%;
+}
+.bankacilik-duzenleme img{
+    width: 130%;
+}
+.tuik{
+    float: left;
+    width: 18%;
+    margin: -4% 0% 0% 4%;
+}
+.tuik img{
+    width: 110%;
+}
+.tmsf{
+    float: left;
+    width: 18%;
+    margin: 1% 0% 0% 4%;
+}
+.tmsf img{
+    width: 70%;
+}
+
+
+.is-bankasi{
+    float: left;
+    width: 20%;
+    margin: 2.5%;
+}
+.is-bankasi img{
+    width: 100%;
+}
+.halk-bank{
+    margin: 6% 3% 2.5% 0%;
+    width: 20%;
+    float: left;
+}
+.halk-bank img{
+    width: 120%;
+}
+.kalkinma-bankasi{
+    margin: 3% 0% 2.5% 5%;
+    width: 20%;
+    float: left;
+}
+.kalkinma-bankasi img{
+    width: 100%;
+}
+.qnb-finansbank{
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    width: 20%;
+    float: left;
+}
+.qnb-finansbank img{
+    width: 100%;
+}
+
+
+.deniz-bank{
+    float: left;
+    width: 20%;
+    margin: 0% 0% 0% 25%;
+}
+.deniz-bank img{
+    width: 110%;
+}
+.ziraat-bankasi{
+    float: right;
+    width: 20%;
+    margin: -0.5% 27% 0% 0%;
+}
+.ziraat-bankasi img{
+    width: 120%;
+}
+
+
+
+
+.gubre-tas{
+    float: left;
+    width: 20%;
+    margin: 3.5% 2.5% 2.5% 4%;
+}
+.gubre-tas img{
+    width: 100%;
+}
+.yildiz-holding{
+    margin: 2.5% 2.5% 2.5% 4%;
+    width: 20%;
+    float: left;
+}
+.yildiz-holding img{
+    width: 60%;
+}
+.vestel{
+    margin: 6% 2% 2.5% 2.5%;
+    width: 20%;
+    float: left;
+}
+.vestel img{
+    width: 80%;
+}
+.turk-hava-yollari{
+    margin: 2.5% 0% 2.5% 2.5%;
+    width: 20%;
+    float: left;
+}
+.turk-hava-yollari img{
+    width: 100%;
+}
+
+
+.turkcell{
+    float: left;
+    width: 20%;
+    margin: 0% 0% 0% 25%;
+}
+.turkcell img{
+    width: 110%;
+}
+.turk-telekom{
+    float: right;
+    width: 20%;
+    margin: -3.5% 27% 0% 0%;
+}
+.turk-telekom img{
+    width: 120%;
+}
+
+
+.tobb{
+    float: left;
+    width: 20%;
+    margin: 2% 0% 0% 25%;
+}
+.tobb img{
+    width: 110%;
+}
+.istanbul-ticaret-odasi{
+    float: right;
+    width: 20%;
+    margin: 1% 27% 0% 0%;
+}
+.istanbul-ticaret-odasi img{
+    width: 120%;
+}
+
+.bi-lira{
+    clear: both;
+    float: left;
+    width: 15%;
+    margin: 4.5% 0% 0% 5%;
+}
+.bi-lira img{
+    width: 90%;
+}
+.figo-para{
+    margin: 5.5% 5% 0% 2%;
+    float: left;
+    width: 15%;
+}
+.figo-para img{
+    width: 110%;
+}
+.iyzico{
+    margin: 4.5% 0% 0% 0%;
+    float: left;
+    width: 15%;
+}
+.iyzico img{
+    width: 100%;
+}
+.mukellef{
+    float: left;
+    width: 15%;
+    margin: 2.5% 0% 0% 2%;
+}
+.mukellef img{
+    width: 110%;
+}
+.midas{
+    float: left;
+    width: 15%;
+    margin: 6% 2.5% 0% 4%;
+}
+.midas img{
+    width: 100%;
+}
+
+
+.btc-turk{
+    float: left;
+    width: 15%;
+    margin: 5.5% 1.25% 2.5% 20%;
+}
+.btc-turk img{
+    width: 100%;
+}
+.logo-logo{
+    margin: 6% 1.25% 2.5% 3%;
+    width: 15%;
+    float: left;
+}
+.logo-logo img{
+    width: 60%;
+}
+.tarfin{
+    margin: 3% 1.25% 2.5% -2%;
+    width: 15%;
+    float: left;
+}
+.tarfin img{
+    width: 60%;
+}
+.papara{
+    margin: 6% 5% 2.5% -1%;
+    width: 15%;
+    float: left;
+}
+.papara img{
+    width: 80%;
+}
+
+.new-left-box img{
+    width: 70%;
+}
+
+.new-right-box{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #fff!important;
+    border: 1px solid gray;
+    border-radius: 10px;
+    max-width: 30rem;
+    margin: auto;
+}
+
+
+.new-right-box input{
+    background-color: #F2F2F2;
+    padding: 0.7rem;
+    border: none!important;
+    border-radius: 10px;
+}
+
+.new-right-box button{
+    border: none;
+    background-color: #00D591;
+    border-radius: 10px;
+    padding: 0.7rem;
+    color: #fff;
+}
+
+.new-right-box button:hover{
+    background-color: #03c487;
+    cursor: pointer;
+}
+
+footer{
+    clear: both;
+    background-color: #132536;
+}
+aside a{
+    color: #636D74;
+    text-decoration: none;
+}
+aside p{
+    margin: 1.5%;
+}
+aside{
+    padding: 7% 10% 7% 7%;
+    float: left;
+}
+.social{
+    padding: 7% 10% 7% 7%;
+    float: right;
+
+}
+.social a{
+    text-decoration: none;
+
+}
+.social i{
+    display: block;
+    margin: 1% 0%  15%  0%;
+
+    color: white;
+}
+.social p{
+    display: inline;
+}
+
+
+.son-kisim{
+    clear: both;
+    padding: 2.5%;
+    background-color: #0F1D2B;
+}
+.son-kisim a{
+    text-decoration: none;
+    color: #454749;
+    margin-left: 3%;
+}
+.son-kisim p{
+    display: inline;
+    color: #454749;
+    float: right;
+    margin-right: 3%;
+    
+}
+
+@media screen and (max-width: 992px) {
+    #navbarSupportedContent{
+        padding-bottom: 1rem;
+        border-bottom: 2px solid var(--acikRenk);
+    }
+}
