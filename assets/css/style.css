@@ -28,29 +28,13 @@ header {
   background-color: white !important;
 }
 
+.navbar-brand img{
+  width: 6rem;
+}
+
 .nav-item {
   margin-left: 1rem;
   margin-right: 1rem;
-}
-
-.navbar-brand {
-  background: linear-gradient(to top, #0cbec3, #327ecd)!important;
-  background: -webkit-linear-gradient(to top, #0cbec3, #327ecd)!important;
-  background: -moz-linear-gradient(to top, #0cbec3, #327ecd)!important;
-  -webkit-background-clip: text!important;
-  -webkit-text-fill-color: transparent!important;
-  font-size: 2rem!important;
-}
-
-.navbar-brand p {
-  font-size: 1rem!important;
-  line-height: 1rem!important;
-  background: linear-gradient(to top, #0cbec3, #327ecd)!important;
-  background: -webkit-linear-gradient(to top, #0cbec3, #327ecd)!important;
-  background: -moz-linear-gradient(to top, #0cbec3, #327ecd)!important;
-  -webkit-background-clip: text!important;
-  -webkit-text-fill-color: transparent!important;
-  padding-left: 0.2rem!important;
 }
 
 .nav-link {
