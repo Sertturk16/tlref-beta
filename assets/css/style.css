@@ -14,6 +14,8 @@ body {
 
 .container-fluid {
   background: white;
+  background-image: url("../img/rectangle-25.png");
+  background-size: 50%;
   margin: auto;
   overflow: hidden;
 }
