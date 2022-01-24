@@ -14,8 +14,6 @@ body {
 
 .container-fluid {
   background: white;
-  background-image: url("../img/rectangle-25.png");
-  background-size: 50rem;
   margin: auto;
   overflow: hidden;
 }
@@ -634,22 +632,22 @@ aside a {
   text-decoration: none;
 }
 aside p {
-  margin: 1.5%;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  display: inline;
 }
 aside {
-  padding: 7% 10% 7% 7%;
   float: left;
+  padding: 1rem;
 }
 .social {
-  padding: 7% 10% 7% 7%;
+  padding: 1rem;
   float: right;
 }
 .social a {
   text-decoration: none;
+  margin: 1rem 1rem 1rem 0;
 }
 .social i {
-  display: block;
-  margin: 1% 0% 15% 0%;
 
   color: white;
 }
@@ -659,23 +657,43 @@ aside {
 
 .son-kisim {
   clear: both;
-  padding: 2rem;
+  padding: 1rem;
   background-color: #0f1d2b;
 }
 .son-kisim a {
   text-decoration: none;
   color: #454749;
-  margin-left: 3%;
 }
 .son-kisim p {
   display: inline;
   color: #454749;
   float: right;
-  margin-right: 3%;
 }
 
 .son-kisim-container{
     background-color: #0f1d2b;
+}
+
+.languages {
+  clear: both;
+  padding: 0.8rem;
+  background-color: #1e3c5a;
+}
+.languages p {
+  display: inline;
+  text-decoration: none;
+  color: #ddd;
+  margin: 0.8rem 0.8rem 0.8rem 0;
+  font-size: 0.8rem;
+}
+
+.languages p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.languages-container{
+  background-color: #1e3c5a;
 }
 
 @media screen and (max-width: 992px) {
