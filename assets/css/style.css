@@ -60,8 +60,16 @@ header {
   border: 2px solid var(--acikRenk);
 }
 
+.sign-up-sm{
+  display: none!important;
+}
+
 .login {
   font-size: 0.9rem;
+}
+
+.language-wide{
+  font-size: 0.7rem;
 }
 
 .main-page-link {
@@ -676,32 +684,28 @@ aside {
     background-color: #0f1d2b;
 }
 
-.languages {
-  clear: both;
-  padding: 0.8rem;
-  background-color: #1e3c5a;
-}
-.languages p {
-  display: inline;
-  text-decoration: none;
-  color: #ddd;
-  margin: 0.8rem 0.8rem 0.8rem 0;
-  font-size: 0.8rem;
-}
 
-.languages p:hover{
-  text-decoration: underline;
-  cursor: pointer;
-}
-
-.languages-container{
-  background-color: #1e3c5a;
-}
-
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
   #navbarSupportedContent {
     padding-bottom: 1rem;
     border-bottom: 2px solid var(--acikRenk);
+  }
+  .language-wide{
+    display: none!important;
+  }
+  .language-small{
+    display: block!important;
+    font-size: 0.8rem!important;
+  }
+  .sign-up{
+    display: none!important;
+  }
+  .sign-up-sm{
+    display: block!important;
+    font-size: 1rem;
+  }
+  .login{
+    font-size: 1rem;
   }
 }
 
